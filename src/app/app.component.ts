@@ -28,5 +28,5 @@ import { Component } from '@angular/core';
   styles: []
 })
 export class AppComponent {
-  title = 'Projet-Angular MARVEL Sheridan';
+  title = 'Projet-Angular MARVEL Antoine';
 }
