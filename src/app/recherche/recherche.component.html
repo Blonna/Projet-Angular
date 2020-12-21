@@ -1,3 +1,19 @@
-<div>
-  <h1>{{ titre }}</h1>
-</div>
+<html lang="fr-FR">
+
+  <meta charset="UTF-8">
+  <meta name="author" content="Antoine BLONNA-Sheridan MAMFOUMBI">
+  <link href="../src/app/recherche/recherche.component.css" rel="stylesheet" type="text/css"/>
+  <body>
+    <h1>Bienvenue dans notre espace de recherche,
+       pour chercher un personnage précis veuillez entrer son nom de héros.
+        Si vous souhaitez en décrouvrir vous pouvez cliquez sur le bouton de découverte.
+    </h1>
+         <div>
+            <label for="i_nom">Veuillez enter le nom d'un héros ou méchant à découvrir</label>
+             <input type="text" name="i_nom" size="35" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$"  required>
+          </div>
+          <div id="controles"><input type="submit" id="btn_recherche_rnd" name="sub_envoyer" value="Recherche aléatoire"></div>
+  </body>
+</html>
+
+

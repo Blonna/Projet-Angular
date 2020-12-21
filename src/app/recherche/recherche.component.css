@@ -1,0 +1,94 @@
+body {
+  display: flex; /* Ce conteneur est "flexible" */
+  justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
+  flex-direction: column; /* Les éléments sont empilés */
+  align-items: center; /* Les éléments portés sont centrés à la verticale */
+  width: 100%; /* La page occupe toute la largeur */
+  padding-left:2%;
+  padding-right:2%;
+}
+
+
+div{
+  justify-content: center;
+  margin:5px;
+  color:black;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  background-color: aliceblue;
+
+}
+h1
+{
+  text-align: center;
+  font-size: 30px;
+  background-color: bisque;
+}
+
+
+label
+{
+padding: 12px 12px 12px 0;
+overflow:hidden;
+display: flex;
+width: 50%;
+margin-left:25%;
+font-family:Montserrat;
+text-align: left;
+font-size: 18px;
+
+}
+
+input[type=text],textarea{
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+resize: vertical;
+width: 50%;
+margin-left:25%;
+}
+input[type=text],textarea{
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  width: 95%;
+  margin-left: 0.5%;
+
+}
+#btn_recherche_rnd
+{
+  font-size: 20px;
+  height: 50px;
+  background-color:cadetblue;
+  border-bottom-color: aliceblue;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: Montserrat;
+  padding: 12px;
+  color: aliceblue;
+  margin-left: 600px;
+
+}
+
+
+
+#btn_recherche_rnd
+{
+  font-size: 20px;
+  height: 50px;
+  background-color:cadetblue;
+  border-bottom-color: aliceblue;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: Montserrat;
+  padding: 12px;
+  color: aliceblue;
+  margin-left: 250px;
+
+}

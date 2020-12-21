@@ -1,3 +1,12 @@
 div {
   display: none;
 }
+.section p{
+  margin-left:0;
+  margin-top: 100px;
+  font-size: medium;
+  color: #f0250b;
+  text-align: center;
+  margin-bottom: 100px;
+
+}
