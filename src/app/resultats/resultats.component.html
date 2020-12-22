@@ -2,7 +2,6 @@
 
 
 <div >
-  <h1>{{ titre }}</h1>
   <div *ngFor="let character of personnages | async">
     <div id="image">
     <img src="{{character.thumbnail.path}}.{{character.thumbnail.extension}}" alt="{{character.name}}">
