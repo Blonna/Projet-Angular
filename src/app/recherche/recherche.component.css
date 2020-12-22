@@ -3,7 +3,11 @@ body {
   justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
   flex-direction: column; /* Les éléments sont empilés */
   align-items: center; /* Les éléments portés sont centrés à la verticale */
+<<<<<<< HEAD
   width: 1200px; /* La page occupe toute la largeur */
+=======
+  width: 80%; /* La page occupe toute la largeur */
+>>>>>>> 38bd8d803c61c3352c3afd8a260a49e31f94ff42
   padding-left:2%;
   padding-right:2%;
 }
@@ -13,18 +17,18 @@ div{
   justify-content: center;
   margin:5px;
   color:black;
-  width:100%;
+  width:80%;
   display: flex;
   flex-direction: column;
   font-size: 25px;
-  background-color: aliceblue;
+  background-color: rgb(179, 6, 6);
 
 }
 h1
 {
   text-align: center;
   font-size: 30px;
-  background-color: bisque;
+  background-color: rgb(179, 6, 6);
 }
 
 
@@ -72,7 +76,7 @@ input[type=text],textarea{
   font-family: Montserrat;
   padding: 12px;
   color: aliceblue;
-  margin-left: 600px;
+
 
 }
 
@@ -82,13 +86,14 @@ input[type=text],textarea{
 {
   font-size: 20px;
   height: 50px;
-  background-color:cadetblue;
-  border-bottom-color: aliceblue;
+  background-color:rgb(248, 7, 7);
+  border-bottom-color: rgb(226, 112, 19);
   border-radius: 6px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(243, 237, 237);
   font-family: Montserrat;
   padding: 12px;
-  color: aliceblue;
+  color: rgb(247, 243, 240);
   margin-left: 250px;
+  margin-right: 250px;
 
 }

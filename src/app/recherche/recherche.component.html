@@ -4,12 +4,12 @@
   <meta name="author" content="Antoine BLONNA-Sheridan MAMFOUMBI">
   <link href="./recherche.component.css" rel="stylesheet" type="text/css"/>
   <body>
-    <h1>Bienvenue dans notre espace de recherche,
-      pour chercher un personnage précis veuillez selectionner le nom du héros.
-       Si vous souhaitez en décrouvrir vous pouvez cliquez sur le bouton de découverte.
-   </h1>
-        <div>
 
+        <div>
+          <h1>Bienvenue dans notre espace de recherche,
+            pour chercher un personnage précis veuillez selectionner le nom du héros.
+             Si vous souhaitez en décrouvrir vous pouvez cliquez sur le bouton de découverte.
+         </h1>
         <select>
           <option  *ngFor="let character of personnages | async">{{character.name}}
           </option>
