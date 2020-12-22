@@ -1,5 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { characters } from './results';
+import { ResultatService } from '../resultat.service';
+import { Observable } from 'rxjs';
+// import { characters } from './results';
 
 @Component({
   selector: 'pa-resultats',
@@ -9,10 +11,14 @@ import { characters } from './results';
 export class ResultatsComponent implements OnInit {
 titre = 'Resultats';
 
-@Input() contenu: characters;
-  constructor() { }
-
+ @Input() contenu: any;
+  constructor(private service: ResultatService) { }
+ personnages: Observable<any>;
   ngOnInit(): void {
+    this.getPersonnages();
+  }
+  getPersonnages(): any {
+    this.personnages = this.service.getCaractere();
   }
 
 }
