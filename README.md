@@ -49,4 +49,8 @@ Dans le champs recherche nous avons deux maniéres de choisir le personnages:
 
    - Le champ résultats devrait afficher les personnages en fonction des actions réalisées dans le champ recherche.
 
+## ETAT DU PROJET
+
+Le projet fonctionne en partie, nous recuperons bien les données, les noms, images et descriptions s'affichent bien, mais les actions sur la recherche ne fonctionne pas car on a du mal à faire communiquer les deux composants recherche et resultats. 
+
 
