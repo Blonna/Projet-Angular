@@ -11,11 +11,15 @@
         <div>
 
         <select>
-          <option *ngFor="let character of personnages | async">{{character.name}}</option>
+          <option  *ngFor="let character of personnages | async">{{character.name}}
+          </option>
         </select>
+
          </div>
-         <div id="controles"><input type="submit" id="btn_recherche_rnd" name="sub_envoyer" value="Recherche aléatoire"></div>
+         <div id="controles"><input type="submit" id="btn_recherche_rnd" name="sub_envoyer" value="Recherche aléatoire" ></div>
  </body>
- <pa-resultats></pa-resultats>
+
 </html>
+
+
 
