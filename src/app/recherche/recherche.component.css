@@ -3,11 +3,7 @@ body {
   justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
   flex-direction: column; /* Les éléments sont empilés */
   align-items: center; /* Les éléments portés sont centrés à la verticale */
-<<<<<<< HEAD
   width: 1200px; /* La page occupe toute la largeur */
-=======
-  width: 80%; /* La page occupe toute la largeur */
->>>>>>> 38bd8d803c61c3352c3afd8a260a49e31f94ff42
   padding-left:2%;
   padding-right:2%;
 }
