@@ -1,3 +1,7 @@
 <div>
   <h1>{{ titre }}</h1>
+  <select>
+    <option *ngFor="let character of personnages | async">{{character.name}}</option>
+    </select>
 </div>
+<pa-resultats></pa-resultats>

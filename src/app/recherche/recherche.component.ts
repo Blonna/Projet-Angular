@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ResultatService } from '../resultat.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'pa-recherche',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RechercheComponent implements OnInit {
 titre = 'Recherche';
-  constructor() { }
 
-  ngOnInit(): void {
-  }
-
+constructor(private service: ResultatService) { }
+personnages: Observable<any>;
+ ngOnInit(): void {
+   this.getPersonnages();
+ }
+ getPersonnages(): any {
+   this.personnages = this.service.getCaractere();
+ }
 }
