@@ -51,9 +51,9 @@ Dans le champs recherche nous avons deux maniéres de choisir le personnages:
 
 ## MISE EN PLACE DE API MARVEL
 
-site : 
-https://gateway.marvel.com
-https://gateway.marvel.com/v1/public/characters?ts=&apikey=&hash=
+site : https://gateway.marvel.com
+
+site : https://gateway.marvel.com/v1/public/characters?ts=&apikey=&hash=
 
 Aprés inscription sur le site web de l'API MARVEL, on obtient deux clés, publique et privé.
 Pour utiliser les clés on doit produire un md5(ts + private_key + public_key), puis on met dans le lien internet:
